@@ -17,3 +17,4 @@ const names = ['MARY','PATRICIA','LINDA','BARBARA','ELIZABETH','JENNIFER','MARIA
 
 // Apply Interpolation and Display Information in the Browser
 txt += `Solution is ${namesScores(names)} <br>`;
+document.getElementById("arrinfo").innerHTML = txt;
