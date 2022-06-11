@@ -6,10 +6,22 @@ For example, when the list is sorted into alphabetical order, COLIN, which is wo
 
 The aim is to find the total of all names scores in the array.
 
+Information at [Project Euler 022](https://projecteuler.net/problem=22)
+
 ## UX
 
 As a user, I expect the function `namesScores(names)` to return a number.
 
 As a user, I expect the function `namesScores(names)` to return 871198282.
 
-As 
+**Information Architecture**
+
+The function `namesScores(names)` returns a number, where `names` is an array.
+
+## Features
+
+Allows the user to view the PDF of the names as well as the total of all names scores in the array.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Google Fonts and Bootstrap 5.2.0-Beta1.
